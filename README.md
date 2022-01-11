@@ -1,6 +1,6 @@
 # 526-Term-Project-Process-Schedular
 
-##Overview
+## Overview
 The CS 526 Term Project's goal is to simulate a process schedular that feeds a file of raw process datas as input, then systematically processing each processes based on system parameters by using PriorityQUeue and other data structures.
 
 All process objects were sorted by id and initially stored in a text file given by assignment. Process objects were then read and stored into another PriorityQueue named D, as it has to be sorted by arrivalTime in ascending arrangement so D will remove the least arrivalTime and send it to Q at its corresponding virtual time. Due to process objects being a custom class, a comparator was implemented
