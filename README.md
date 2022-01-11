@@ -1,7 +1,7 @@
 # 526-Term-Project-Process-Schedular
 
 ## Overview
-The CS 526 Term Project's goal is to simulate a process schedular that feeds a file of raw process datas as input, then systematically processing each processes based on system parameters by using PriorityQUeue and other data structures.
+The CS 526 Term Project's goal is to simulate a process schedular that feeds a file of raw process datas as input, then systematically processing each processes based on system parameters by using PriorityQueue and other generic data structures.
 
 ## Class Breakdowns
 
