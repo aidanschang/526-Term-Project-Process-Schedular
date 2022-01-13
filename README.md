@@ -20,8 +20,11 @@ Now, the priority attribute of each process-objects will increase by 1 if they h
 
 ### processScheduling.java
 This is the main program for the Processor Schedular assignment. It includes: 
-  <*>reading and scanning the text file, 
-
+  * reading and scanning the text file includeing a try/error block
+  * instantiate process class objects
+  * creating PriorityQueue D and Q
+  * constructing a comparator for custom class, process
+  * a while loop( which each loop represents one unit time) that consist of all the logical expression to process process-objects provided by the text file.
 
 Since a PriorityQueue can only access to the first object and cannot modify the rest of the objects without removing the previous object. To overcome this problem, I added a step at the end of while loops to remove all process-object while incrementing the waitTime, and adding to an ArrayList to temporarily storing the process-objects. Once Q has emptied,I implemented a for loop to add back all modified processes back to Q.
 
