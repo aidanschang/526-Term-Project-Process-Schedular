@@ -36,7 +36,7 @@ This is the main program for the Processor Schedular assignment. It includes:
 
 The most challenging part of this assignment is to consider all possible outcomes within each unit time. Fortunately, I was able to apply some of the basic coding techniques that I have seasoned during the course such as coding and testing in a small area of codes before move-on, debugging tools, and ability to efficiently search the answers from online. 
 
-![Screen Shot 2022-01-13 at 7 21 04 PM](https://user-images.githubusercontent.com/84875731/149446072-bf9572ca-84f2-4d02-a777-b0e3586e8341.png)
+![Screen Shot 2022-01-13 at 7 17 25 PM](https://user-images.githubusercontent.com/84875731/149446177-2c059bd1-d4cd-4daa-8ec0-660e83f8362f.png)
 
 ### printMessage.java
 In order to log any transactions of process updates, I realized that there is a way to systemacially allocate all logging templates to simplify the codes. Therefore, I consolidated all the templates and created two custom methods to keep my mian program cleaner.
