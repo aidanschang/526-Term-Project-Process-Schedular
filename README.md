@@ -41,4 +41,5 @@ The most challenging part of this assignment is to consider all possible outcome
 ### printMessage.java
 In order to log any transactions of process updates, I realized that there is a way to systemacially allocate all logging templates to simplify the codes. Therefore, I consolidated all the templates and created two custom methods to keep my mian program cleaner.
 
+![Screen Shot 2022-01-13 at 7 23 33 PM](https://user-images.githubusercontent.com/84875731/149446299-982d2ef0-689f-4b08-bd9e-dacde8d3ea1a.png)
 
